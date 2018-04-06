@@ -3,6 +3,9 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_10">
     <output url="file://$MODULE_DIR$/../../../javamodule/out/production/classes" />
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../javamodule/customSrc">
+      <sourceFolder url="file://$MODULE_DIR$/../../../javamodule/customSrc/main/java" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../../javamodule/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../javamodule/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../javamodule/src/main/resources" type="java-resource" />

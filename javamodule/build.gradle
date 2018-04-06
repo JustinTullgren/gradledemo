@@ -2,3 +2,11 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 mainClassName = 'com.thunderhead.demo.gradle.javamodule.Main'
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'customSrc/main/java'
+        }
+    }
+}
