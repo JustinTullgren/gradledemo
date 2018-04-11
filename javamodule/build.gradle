@@ -6,12 +6,29 @@ mainClassName = 'com.thunderhead.demo.gradle.javamodule.Main'
 sourceSets {
     main {
         java {
-            srcDirs 'customSrc/main/java'
+            srcDirs 'customSrc/main/java' // add a custom source set for main
+        }
+    }
+    integrationTest {
+        java {
+            srcDirs 'integrationTest/java' // integration test only source set
         }
     }
 }
 
+configurations {
+    integrationTestImplementation.extendsFrom testImplementation
+}
+
 dependencies {
     testImplementation 'junit:junit:4.12'
+    integrationTestImplementation 'com.squareup.okhttp3:okhttp:3.10.0'
+}
+
+task integrationTest(type: Test, dependsOn: jar) {
+    description 'Run HTTP NetworkTests'
+    group 'verification'
+    testClassesDirs = sourceSets.integrationTest.output.getClassesDirs()
+    classpath = sourceSets.integrationTest.runtimeClasspath
 }
 

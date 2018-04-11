@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/groovymodule/groovymodule_main.iml" filepath="$PROJECT_DIR$/.idea/modules/groovymodule/groovymodule_main.iml" group="groovymodule" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/groovymodule/groovymodule_test.iml" filepath="$PROJECT_DIR$/.idea/modules/groovymodule/groovymodule_test.iml" group="groovymodule" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javamodule/javamodule.iml" filepath="$PROJECT_DIR$/.idea/modules/javamodule/javamodule.iml" group="javamodule" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javamodule/javamodule_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/javamodule/javamodule_integrationTest.iml" group="javamodule" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javamodule/javamodule_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javamodule/javamodule_main.iml" group="javamodule" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/javamodule/javamodule_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javamodule/javamodule_test.iml" group="javamodule" />
       <module fileurl="file://$PROJECT_DIR$/repo.iml" filepath="$PROJECT_DIR$/repo.iml" />

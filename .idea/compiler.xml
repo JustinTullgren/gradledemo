@@ -4,7 +4,9 @@
     <bytecodeTargetLevel>
       <module name="groovymodule_main" target="1.10" />
       <module name="groovymodule_test" target="1.10" />
+      <module name="javamodule_integrationTest" target="1.10" />
       <module name="javamodule_main" target="1.10" />
+      <module name="javamodule_runIntegrationTest" target="1.10" />
       <module name="javamodule_test" target="1.10" />
     </bytecodeTargetLevel>
   </component>
